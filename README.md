@@ -98,8 +98,14 @@ This project is primarily for educational and experimental purposes. It should n
 
 MIT License - Because even experimental projects need a license. Feel free to use, modify, and distribute this code at your own risk. We're not responsible for any sentient AIs that may result from its use.
 
+## Support the Project
+
+If you find JIT Implementation helpful or amusing, consider buying me a coffee! Your support helps keep the AI well-caffeinated and the code flowing.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jiriklimes)
+
 ---
 
 Remember: JIT Implementation is here to assist and amuse, not to replace human developers. Use it wisely, and don't forget to laugh along the way!
 
-_"The best code is the code you never had to write, but still somehow understand." - Anonymous JIT Implementation User_
+_"The best code is the code you never had to write." - Anonymous JIT Implementation User_
