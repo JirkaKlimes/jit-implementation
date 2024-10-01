@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "jit-code"
 version = "0.1.0"
-description = ""
+description = "JIT Code: Just-in-Time Implementation"
 authors = ["Jiri Klimes <jiriklimes920@gmail.com>"]
 readme = "README.md"
 
