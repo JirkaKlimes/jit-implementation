@@ -1,0 +1,2 @@
+def implement():
+    raise NotImplementedError
