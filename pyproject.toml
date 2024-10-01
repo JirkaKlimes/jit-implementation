@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jit-implementation"
-version = "0.1.1"
+version = "0.1.2"
 description = "JIT Implementation: Code That Writes Itself"
 authors = ["Jiri Klimes <jiriklimes920@gmail.com>"]
 readme = "README.md"
