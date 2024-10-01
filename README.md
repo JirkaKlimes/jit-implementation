@@ -98,6 +98,14 @@ This project is primarily for educational and experimental purposes. It should n
 
 MIT License - Because even experimental projects need a license. Feel free to use, modify, and distribute this code at your own risk. We're not responsible for any sentient AIs that may result from its use.
 
+## TODO
+
+-   [ ] Implement package management (requirements.txt, poetry)
+-   [ ] Add support for implementing class methods and properties
+-   [ ] Automatically add and verify imports for used types
+-   [ ] Improve error handling for test execution
+-   [ ] Add support for multiple LLM providers (claude, ollama)
+
 ## Support the Project
 
 If you find JIT Implementation helpful or amusing, consider buying me a coffee! Your support helps keep the AI well-caffeinated and the code flowing.
