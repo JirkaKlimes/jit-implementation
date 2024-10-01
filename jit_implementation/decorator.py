@@ -1,6 +1,6 @@
 from typing import Any, Callable, List, Tuple
 
-from jit_code.coder import Coder
+from jit_implementation.coder import Coder
 
 
 def implement(

@@ -1,5 +1,5 @@
 from typing import List
-from jit_code.decorator import implement
+from jit_implementation.decorator import implement
 
 
 @implement(

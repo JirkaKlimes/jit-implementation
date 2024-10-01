@@ -18,7 +18,7 @@ from rich.panel import Panel
 from rich.syntax import Syntax
 from rich.text import Text
 
-from jit_code.ide import IDE
+from jit_implementation.ide import IDE
 
 REVISION_TEMPLATE = Template("""\
 # Version: {{ version }} - Generated on {{ timestamp }}
@@ -84,7 +84,7 @@ class Coder:
         "\n"
         "Remember: Write code that is not only functional but also maintainable and scalable."
     )
-    IMPLEMENTATION_PATH: ClassVar[Path] = Path(".jit_code")
+    IMPLEMENTATION_PATH: ClassVar[Path] = Path(".jit_impl")
     API_KEY: ClassVar[str] = None
     MODEL: ClassVar[str] = "gpt-4o-2024-08-06"
     TEMPERATURE: ClassVar[float] = 0.0

@@ -1,4 +1,4 @@
-from jit_code import implement
+from jit_implementation import implement
 
 
 @implement
