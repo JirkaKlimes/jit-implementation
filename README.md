@@ -2,41 +2,9 @@
 
 ## You've heard of Just-in-Time Compilation. Now, get ready for Just-in-Time Implementation!
 
-Tired of writing code? Wish your programs could write themselves? Look no further! JIT Implementation is here to revolutionize your development process.
+Tired of writing code? Let your programs write themselves with JIT Implementation!
 
-### What is JIT Implementation?
-
-JIT Implementation is a groundbreaking Python library that generates your functions and classes on the fly using the power of Large Language Models (LLMs). Simply decorate your function or class with `@implement`, and watch the magic unfold!
-
-```python
-from jit_implementation import implement
-
-@implement
-def solve_world_hunger():
-    """Solve world hunger"""
-
-# Congratulations! You've just solved world hunger!
-```
-
-### Features
-
--   **Lighter Builds**: Enjoy lighter builds since the code isn't even there until you need it.
--   **Lazy Implementation**: Code is dynamically created at the point of necessity, reducing overhead.
--   **100% Reproducible**: With LLM sampling temperature set to 0, results are consistent.
--   **Context-Aware**: Analyzes your codebase to understand custom types and project structure.
--   **Test-Driven Development**: Provide test cases, and JIT Implementation ensures they pass.
--   **Smart Caching**: Stores generated implementations for reuse.
--   **In-Place Rewriting**: Option to modify source files directly.
-
-### Installation
-
-```bash
-pip install jit-implementation
-```
-
-### Usage
-
-Behold, a minimalist implementation of a GUI Snake game:
+### Quick Start
 
 ```python
 from jit_implementation import implement
@@ -53,7 +21,25 @@ if __name__ == "__main__":
 
 Yes, it actually works! Who needs hundreds of lines of code when you have JIT Implementation?
 
-Here's another practical example:
+### What is JIT Implementation?
+
+JIT Implementation is a groundbreaking Python library that generates your functions and classes on the fly using Large Language Models (LLMs). Simply decorate your function or class with `@implement`, and watch the magic unfold!
+
+### Key Features
+
+-   **Lazy Implementation**: Code is dynamically created when needed.
+-   **Lighter Builds**: Enjoy feather-light builds since the code isn't even there until you need it!
+-   **Context-Aware**: Analyzes your codebase to understand custom types and project structure.
+-   **Test-Driven Development**: Provide test cases, and JIT Implementation ensures they pass.
+-   **Smart Caching**: Stores generated implementations for reuse.
+
+### Installation
+
+```bash
+pip install jit-implementation
+```
+
+### Advanced Usage
 
 ```python
 from typing import List
@@ -67,52 +53,51 @@ from jit_implementation import implement
 def prime_factors(n: int) -> List[int]:
     """Return the prime factors of n"""
 
-# Now you can use prime_factors as if you had implemented it yourself!
 assert prime_factors(100) == [2, 2, 5, 5]
 assert prime_factors(69420) == [2, 2, 3, 5, 13, 89]
 ```
 
+### In-Place Code Generation
+
+For the brave souls who trust AI completely, JIT Implementation offers an `in_place=True` option that rewrites the source code in the file where the function was declared:
+
+```python
+@implement(in_place=True)
+def fib(n: int) -> int:
+    """Return the nth Fibonacci number"""
+
+# After running the code, your source file will be updated with the implementation!
+```
+
+**Warning**: Use `in_place=True` with extreme caution. It will modify your source code!
+
 ### How It Works
 
-1. **Define**: You provide a function or class signature with a docstring.
-2. **Analyze**: JIT Implementation analyzes your codebase, including custom types and classes.
-3. **Generate**: This information is sent to an LLM along with your project context.
-4. **Iterate**: The LLM generates an implementation, complete with a "Chain of Thought" explanation.
-5. **Validate**: JIT Implementation runs your tests (if provided) and iterates if necessary.
-6. **Cache**: The generated code is cached in `.jit_impl` for future use, including metadata like version, timestamp, test results, original filename, implementation checksum, and chain of thought.
+1. **Define**: Provide a function or class signature with a docstring.
+2. **Generate**: JIT Implementation uses an LLM to create the implementation.
+3. **Validate**: Tests are run (if provided) and iterations are made if necessary.
+4. **Cache**: Generated code is stored for future use.
 
 ### Warning
 
-While JIT Implementation is a powerful tool, please use responsibly:
+While powerful, use JIT Implementation responsibly:
 
--   **Review Generated Code**: The generated code may not always be optimal or secure. Always review and understand any code before using it in production.
--   **Security Considerations**: Be cautious of potential security vulnerabilities in auto-generated code.
--   **Learning Curve**: Overreliance on automated generation can hinder learning and problem-solving skills.
+-   Always review generated code before production use.
+-   Be aware of potential security vulnerabilities.
+-   Don't let it hinder your learning and problem-solving skills.
 
 ## Disclaimer
 
-This project is primarily for educational and experimental purposes. It should not be relied upon for critical or production systems without thorough review and testing.
-
-## License
-
-MIT License. Feel free to use, modify, and distribute this code at your own risk.
-
-## TODO
-
--   [ ] Implement package management (requirements.txt, poetry)
--   [ ] Add support for implementing class methods and properties
--   [ ] Automatically add and verify imports for used types
--   [ ] Improve error handling for test execution
--   [ ] Add support for multiple LLM providers (Claude, Ollama)
+This project is for educational and experimental purposes. Do not rely on it for critical systems without thorough review.
 
 ## Support the Project
 
-If you find JIT Implementation helpful or funny, consider buying me a coffee! Your support helps keep the development going.
+If you find JIT Implementation helpful or amusing, consider buying me a coffee!
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jiriklimes)
 
 ---
 
-Remember: JIT Implementation is here to assist, not to replace human developers. Use it wisely, and enjoy the efficiency it brings!
+**Note**: JIT Implementation was created as a joke. While it demonstrates interesting possibilities, it's not intended for serious development use.
 
 _"The best code is the code you didn't have to write." - Anonymous JIT Implementation User_
