@@ -1,4 +1,4 @@
-# JIT Implementation: Just-in-Time Code Generation
+# JIT Implementation: A Python Library That Implements Your Code at Runtime
 
 ## You've heard of Just-in-Time Compilation. Now, get ready for Just-in-Time Implementation!
 
